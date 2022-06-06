@@ -44,22 +44,300 @@
   </head>
   <body>
     <!-- Header -->
-    <header></header>
+    <header>
+      <div class="container">
+        <nav class="navbar navbar-expand-sm  navbar-dark mt-5">
+          <!-- Brand -->
+          <a class="navbar-brand" href="#">Diner</a>
+
+          <!-- Toggler/collapsibe Button -->
+
+          <!-- Navbar links -->
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item ">
+              <div class="input-group nav-link">
+                <form action="" class="search">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Search here..."
+                    name="search"
+                    style="border: none"
+                  />
+                  <a href="#" class="fa fa-search search__icon btnSearch"></a>
+                </form>
+              </div>
+            </li>
+            <li class="nav-item moon">
+              <a class="nav-link" href="#"
+                ><i class="fa-regular fa-moon"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <button
+                type="button"
+                class="btn btn-primary menu"
+                data-toggle="modal"
+                data-target="#exampleModal"
+              >
+                <i class="fa fa-bars"></i>
+              </button>
+            </li>
+          </ul>
+        </nav>
+       
+      </div>
+    </header>
+    <div
+    class="modal fade modal-fullscreen"
+    id="exampleModal"
+    tabindex="-1"
+    aria-labelledby="exampleModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button
+          type="button"
+          class="close"
+          data-dismiss="modal"
+          aria-label="Close"
+        >
+          <span aria-hidden="true"><i class="fa-solid fa-xmark"></i></span>
+        </button>
+        </div>
+        <div class="modal-body">
+         
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Services</a>
+          <a href="#">Blog</a>
+          <a href="#">404</a>
+          <a href="#">Landing Page</a>
+          <a href="#">Contact</a>
+          <a href="#">Shot Codes</a>
+          <a href="#">Email</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
 
     <!-- Carousel -->
-    <section></section>
+    <section class="carousel">
+      <div class="container">
+       <h1>The Only Thing We <br> Love More Than Food <br> Is You!</h1>
+       <p>Lorem ipsum dolor sit amet consectetur ipsum elit. 
+         Qui eligendi vitae sit.Ea <br> ipsum sed consequuntur illum facere.</p>
+       <a class="btn btn-outline-light" href="#">Read More  <span class="fa-solid fa-chevron-right"></span></a>
+      </div>
+     </section>
 
     <!-- About -->
-    <section></section>
+    <section class="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5">
+            <h1>About Us</h1>
+            <h2 class="content">We found our creative space that is open for you.</h2>
+          </div>
+          <div class="col-lg-7">
+            <p class="content2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, fuga porro rerum perspiciatis commodi nemo repellendus reprehenderit tempora neque velit facere in facilis, voluptates vitae excepturi cumque? Reiciendis quasi accusamus dolor obcaecati unde placeat molestias.</p>
+            <p class="content2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione debitis repudiandae laborum asperiores expedita aperiam! Consequatur amet mollitia ipsum rerum? Officia.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Agent -->
-    <section></section>
+    <section class="agent">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6 img"><div class="overlay"></div></div>
+          <div class="col-lg-6 content">
+            <h1>More than 3000 Restaurants</h1>
+            <h2>Book a table easly at the best price</h2>
+            <p>Vestibulum ante ipsum primis in faucibus orci luctus turpis sodales quis. Integer sit amet mattis quam.Vivamus a ligula quam tesque et libero ut justo ultrices in.</p>
+           <div class="row">
+            <div class="col-6 child-ct" >
+              <i class="fa-solid fa-thumbs-up like"></i>
+              <a href="#" class="link">Best Deals</a>
+              <p>Lorem ipsum viverra feugiat. Pellen tesque libero justo.</p>
+            </div>
+            <div class="col-6 child-ct" >
+              <i class="fa-solid fa-utensils like"></i>
+              <a href="#" class="link">Best Food</a>
+              <p>Lorem ipsum viverra feugiat. Pellen tesque libero justo.</p>
+            </div>
+           </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Categories -->
-    <section></section>
-
+    <section class="categories">
+      <div class="container">
+        <h2>What's New</h2>
+        <p class="pop">Popular Categories</p>
+          <div class="row">
+            <div class=" item col-lg-4 col-md-6 col-6 mb-4 ">
+              <div class="card" >
+                <a href="#" class="card-href"><div class="overlay"></div><img class="card-img-top" src="./img/g1.jpg" alt="Card image"></a>
+                <div class="card-img-overlay">
+                  <a href="#" class="card-title"><h4 >Vegetarian</h4></a>
+                  <p class="card-text">$350</p>
+                
+                </div>
+              </div>
+            </div>
+            <div class="item col-lg-4 col-md-6 col-6 mb-4 ">
+              <div class="card" >
+                <a href="#" class="card-href"><div class="overlay"></div><img class="card-img-top" src="./img/g2.jpg" alt="Card image"></a>
+                <div class="card-img-overlay">
+                  <a href="#" class="card-title"><h4 >Drinks</h4></a>
+                  <p class="card-text">$550</p>
+                
+                </div>
+              </div>
+            </div>
+            <div class=" item col-lg-4 col-md-6 col-6 mb-4 ">
+              <div class="card" >
+                <a href="#" class="card-href"><div class="overlay"></div><img class="card-img-top" src="./img/g3.jpg" alt="Card image"></a>
+                <div class="card-img-overlay">
+                  <a href="#" class="card-title"><h4 >Lunch</h4></a>
+                  <p class="card-text">$650</p>
+                
+                </div>
+              </div>
+            </div>
+            <div class=" item col-lg-4 col-md-6 col-6 mb-4 ">
+              <div class="card" >
+                <a href="#" class="card-href"><div class="overlay"></div><img class="card-img-top" src="./img/g4.jpg" alt="Card image"></a>
+                <div class="card-img-overlay">
+                  <a href="#" class="card-title"><h4 >Bakery</h4></a>
+                  <p class="card-text">$550</p>
+                
+                </div>
+              </div>
+            </div>
+            <div class=" item col-lg-4 col-md-6 col-6 mb-4 ">
+              <div class="card" >
+                <a href="#" class="card-href"><div class="overlay"></div><img class="card-img-top" src="./img/g5.jpg" alt="Card image"></a>
+                <div class="card-img-overlay">
+                  <a href="#" class="card-title"><h4 >Desserts</h4></a>
+                  <p class="card-text">$750</p>
+                
+                </div>
+              </div>
+            </div>
+            <div class=" item col-lg-4 col-md-6 col-6 mb-4 ">
+              <div class="card" >
+                <a href="#" class="card-href"><div class="overlay"></div><img class="card-img-top" src="./img/g6.jpg" alt="Card image"></a>
+                <div class="card-img-overlay">
+                  <a href="#" class="card-title"><h4 >Pizza</h4></a>
+                  <p class="card-text">$850</p>
+                
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      
+    </section>
     <!-- Service -->
-    <section></section>
+    <section class="service ">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4 ">
+            <div class="card" >
+              <div class="row head mb-2">
+                <div class="col-4 ">
+                  <i class="fa-solid fa-users icon"></i>
+                </div>
+                <div class="col-8 main">
+                  <p>01</p>
+                  <a href="#"><h4>Soup</h4></a>
+                </div>
+              </div>
+               <p >Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae sit.</p>
+              </div>
+            </div>
+          <div class="col-lg-4 col-md-6 mb-4 ">
+            <div class="card" >
+              <div class="row head mb-2">
+                <div class="col-4 ">
+                  <i class="fa-solid fa-shield-halved icon"></i>
+                </div>
+                <div class="col-8 main">
+                  <p>02</p>
+                  <a href="#"><h4>Drinks</h4></a>
+                </div>
+              </div>
+               <p >Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae sit.</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 ">
+              <div class="card" >
+                <div class="row head mb-2">
+                  <div class="col-4 ">
+                    <i class="fa fa-thermometer-full icon"></i>
+                  </div>
+                  <div class="col-8 main">
+                    <p>03</p>
+                    <a href="#"><h4>Pizza</h4></a>
+                  </div>
+                </div>
+                 <p >Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae sit.</p>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 mb-4 ">
+            <div class="card" >
+              <div class="row head mb-2">
+                <div class="col-4 ">
+                  <i class="fa fa-american-sign-language-interpreting icon"></i>
+                </div>
+                <div class="col-8 main">
+                  <p>04</p>
+                  <a href="#"><h4>Breakfast</h4></a>
+                </div>
+              </div>
+               <p >Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae sit.</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 ">
+              <div class="card" >
+                <div class="row head mb-2">
+                  <div class="col-4 ">
+                    <i class="fa fa-paint-brush icon"></i>
+                  </div>
+                  <div class="col-8 main">
+                    <p>05</p>
+                    <a href="#"><h4>Lunch</h4></a>
+                  </div>
+                </div>
+                 <p >Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae sit.</p>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 mb-4 ">
+                <div class="card" >
+                  <div class="row head mb-2">
+                    <div class="col-4 ">
+                      <i class="fa fa-eraser icon"></i>
+                    </div>
+                    <div class="col-8 main">
+                      <p>06</p>
+                      <a href="#"><h4>Dinner</h4></a>
+                    </div>
+                  </div>
+                   <p >Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae sit.</p>
+                  </div>
+                </div>  
+        </div>
+      </div>
+    </section>
 
     <!-- Delicious -->
     <section class="delicious">
