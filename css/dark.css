@@ -55,6 +55,9 @@ header .navbar .navbar-nav .search{
   display: flex;
   
 }
+header .navbar .navbar-nav .search .form-control{
+  background-color:#232220 ;
+}
 header .navbar .navbar-nav .search .btnSearch{
   text-decoration: none;
   margin-left: 0px;
@@ -63,7 +66,7 @@ header .navbar .navbar-nav .search .btnSearch{
   top: 50%;
   left: 85%;
   transform: translateY(-50%);
-  color: #000000;
+  color: #fff;
 }
 header .navbar .navbar-nav .moon .fa-regular{
   font-size: 1.2rem;
@@ -351,6 +354,7 @@ color: #eceae9;
   line-height: 4.5rem;
   font-size: 1.5rem;
   color: #ff6600;
+  border-radius: 10%;
 }
 .service  p{
   margin-bottom: 0.5rem ;
@@ -507,6 +511,32 @@ color: #eceae9;
 }
 
 @media (max-width: 575.98px) {
+  header .navbar .navbar-nav .input-group{
+    display: none;
+}
+.carousel .container h1{
+    font-size: 2.4rem;
+}
+.categories .row .card .card-img-overlay {
+    padding: 1rem; 
+    font-size: 0.5rem; 
+}
+.categories .row .card .card-img-overlay .card-title h4{
+    font-size: 0.9rem;
+}
+.categories .row .card .card-img-overlay  .card-text{
+    font-size:1rem;
+}
+.categories h2{
+  font-size: 1.1rem;
+}
+.categories .row {
+  margin: 0 -6rem;
+}
+.categories .pop{
+  font-size: 20px;
+  margin: 0.5rem -6rem 2rem -6rem;
+}
   .delicious {
     height: 300px;
   }
