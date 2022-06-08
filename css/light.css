@@ -322,6 +322,11 @@ color: #eceae9;
   margin-bottom: 0rem;
   
 }
+.categories .card{
+  border: none;
+ border-radius: 2%;
+ overflow: hidden;
+}
 
 .categories .row .card .card-img-overlay .card-text{
   color:#ffc600 ;
